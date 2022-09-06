@@ -1,0 +1,9 @@
+{
+  "name" : "cp4admin/Client-Onboarding/OPS1662484956274",
+  "type" : "OPS",
+  "description" : "OPS ML",
+  "mlUrl" : "http://169.61.31.35:8080/",
+  "authUrl" : "",
+  "instanceId" : "",
+  "apiKey" : null
+}
