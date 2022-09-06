@@ -2,13 +2,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>cp4admin.client_onboarding.client_onboarding_decisions</groupId>
-        <artifactId>clientOnboardingDecisions</artifactId>
+        <groupId>cp4admin.client_onboarding.client_onboarding_decisions1</groupId>
+        <artifactId>clientOnboardingDecisions1</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <groupId>decisions.ads_jam_lab.client_onboarding</groupId>
-    <artifactId>feeAndServices</artifactId>
+    <groupId>decisions.client_onboarding.client_onboarding_decisions</groupId>
+    <artifactId>scoreboard</artifactId>
     <version>LATEST-SNAPSHOT</version>
     
 
@@ -27,10 +27,10 @@
                 <configuration>
                     <deployments>
                         <deployment>
-                            <name>feeAndServices</name>
+                            <name>scoreboard</name>
                         </deployment>
                     </deployments>
-                <packageName>decisions.ads_jam_lab.client_onboarding.feeandservices</packageName>
+                <packageName>decisions.client_onboarding.client_onboarding_decisions.scoreboard2</packageName>
                 </configuration>
             </plugin>
         </plugins>
@@ -44,7 +44,7 @@
         </dependency>
         <dependency>
             <groupId>decisions.client_onboarding.client_onboarding_decisions</groupId>
-            <artifactId>servicesSubset</artifactId>
+            <artifactId>machineLearningScoreboard</artifactId>
             <version>LATEST-SNAPSHOT</version>
         </dependency>
         <dependency>

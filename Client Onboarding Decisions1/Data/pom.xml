@@ -2,13 +2,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>cp4admin.client_onboarding.client_onboarding_decisions</groupId>
-        <artifactId>clientOnboardingDecisions</artifactId>
+        <groupId>cp4admin.client_onboarding.client_onboarding_decisions1</groupId>
+        <artifactId>clientOnboardingDecisions1</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <groupId>decisions.client_onboarding.client_onboarding_decisions</groupId>
-    <artifactId>scoreboard</artifactId>
+    <groupId>decisions.ads_jam_lab.client_onboarding</groupId>
+    <artifactId>data</artifactId>
     <version>LATEST-SNAPSHOT</version>
     
 
@@ -27,26 +27,16 @@
                 <configuration>
                     <deployments>
                         <deployment>
-                            <name>scoreboard</name>
+                            <name>data</name>
                         </deployment>
                     </deployments>
-                <packageName>decisions.client_onboarding.client_onboarding_decisions.scoreboard2</packageName>
+                <packageName>decisions.ads_jam_lab.client_onboarding.data</packageName>
                 </configuration>
             </plugin>
         </plugins>
     </build>
 
 <dependencies>
-        <dependency>
-            <groupId>decisions.ads_jam_lab.client_onboarding</groupId>
-            <artifactId>data</artifactId>
-            <version>LATEST-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>decisions.client_onboarding.client_onboarding_decisions</groupId>
-            <artifactId>machineLearningScoreboard</artifactId>
-            <version>LATEST-SNAPSHOT</version>
-        </dependency>
         <dependency>
             <groupId>com.ibm.decision</groupId>
             <artifactId>engine-compact-runtime</artifactId>

@@ -2,13 +2,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>cp4admin.client_onboarding.client_onboarding_decisions</groupId>
-        <artifactId>clientOnboardingDecisions</artifactId>
+        <groupId>cp4admin.client_onboarding.client_onboarding_decisions1</groupId>
+        <artifactId>clientOnboardingDecisions1</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
     <groupId>decisions.client_onboarding.client_onboarding_decisions</groupId>
-    <artifactId>machineLearningScoreboard</artifactId>
+    <artifactId>servicesSubset</artifactId>
     <version>LATEST-SNAPSHOT</version>
     
 
@@ -27,10 +27,10 @@
                 <configuration>
                     <deployments>
                         <deployment>
-                            <name>machineLearningScoreboard</name>
+                            <name>servicesSubset</name>
                         </deployment>
                     </deployments>
-                <packageName>decisions.client_onboarding.client_onboarding_decisions.test</packageName>
+                <packageName>decisions.client_onboarding.client_onboarding_decisions.listpart</packageName>
                 </configuration>
             </plugin>
         </plugins>
